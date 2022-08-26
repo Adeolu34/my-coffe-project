@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+html{
+    font-size: 10px;
+    /* overflow: hidden; */
+}
+:root{
+    --darkbrown: #290001 ;
+    --brown:#87431D; 
+    --lightbrown:#c87941; 
+    --faintbrown:#DBCBBD ;
+    --cornsilk:#fff8dc;
+    --saddlebrown:#8b4513;
+    --darkestbrown:#430000;
+    --black:#1a1a1a ;
+}
+body{
+    background-color: var(--black);
+    overflow-x: hidden;
+}
+.section{
+    padding: 100px 0;
+}
+@media only screen and (max-width: 768px) {
+    section {
+        padding: 50px 0;
+    }
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+h1, h2, h3, h4{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 1.8rem;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.herocontent{
+    background-image: url(./images/home-img.jpeg);
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    padding: 2rem 10px;
+}
+@media only screen and (max-width:768px){
+    .herocontent{
+        background-image: url(./images/home-img.jpeg);
+        width: 100%;
+        height: 75vh;
+        background-size: cover;
+        padding: 2rem 10px;
+    }
+}
+.hero{
+    margin-top: 100px;
+}
+.hero h1{
+    color: var(--lightbrown);
+    font-weight: 800;
+    font-family:'Poppins';
+    font-size: 5rem;
+    padding: 20px 0;
+}
+.hero p{
+    color: var(--cornsilk);
+    line-height: 1.5;
+}
+.secondary-btn{
+    padding: .5rem .8rem;
+    font-family: 'Raleway';
+    font-weight: bold;
+    background-color: var(--brown);
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.secondary-btn:hover{
+    background-color: var(--saddlebrown);
+}
+.secondary-btn a{
+    color: var(--cornsilk);
+}
+@media only screen and (max-width:768px) {
+    .herocontent h1{
+        font-size: 3rem;
+    }
+}
