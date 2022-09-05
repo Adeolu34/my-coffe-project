@@ -20,6 +20,21 @@ body{
 .section{
     padding: 100px 0;
 }
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background: var(--black);
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--saddlebrown);
+}
+
+::selection{
+    background-color: var(--brown);
+    color: var(--brown);
+}
 @media only screen and (max-width: 768px) {
     section {
         padding: 50px 0;
