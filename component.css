@@ -65,9 +65,10 @@
         align-items: center;
         justify-content: flex-end;
         padding-right: 2rem;
-        display: none;
+        transform: translateX(0);
         overflow: hidden;
         transition: 0.3s ease-in transform;
+        overflow-x: hidden;
     }
     .show{
         transform: translateX(-100%);
