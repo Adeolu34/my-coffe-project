@@ -65,7 +65,7 @@
         align-items: center;
         justify-content: flex-end;
         padding-right: 2rem;
-        transform: translatex(0);
+        display: none;
         overflow: hidden;
         transition: 0.3s ease-in transform;
     }
