@@ -68,7 +68,7 @@
         align-items: center;
         justify-content: flex-end;
         padding-right: 2rem;
-        transform: translateX(100%);
+        transform: translateX(0);
         overflow: hidden;
         transition: 0.3s ease-in transform;
         overflow-x: hidden;
